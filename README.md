@@ -1,11 +1,11 @@
 # GitHub Tutorial
 
-_by <your-name-here>_
+_**by Bianna Orielle Krubitski**_
 
 ---
 ## Git vs. GitHub
 
-
+x
 
 ---
 ## Initial Setup
