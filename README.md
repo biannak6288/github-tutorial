@@ -21,7 +21,7 @@ later allowing you to:
 
 ---
 ## Initial Setup
-**_To set up your account with Github..._**
+**_To set up your account with Github_**
 1. Go to github.com and press the button that says "sign up"
     * use an email and password (for HSTAT students, sign up using your school email and password)
     * once you're done signing up, check your email and verify with github
@@ -30,7 +30,7 @@ later allowing you to:
     * once set up, press on the gear in the top right corner
     * go to connected services
     * connect your github with cloud9 by clicking on the connect button
-3. In the future you will sign into cloud9 using your github account
+3. In the future you will sign into cloud9 using your github account. This is how you do it...
 ![if you want to sign-in to github using c9, this is where you go...](https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-signin-github.png)
    
 
