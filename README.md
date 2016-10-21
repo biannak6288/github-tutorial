@@ -22,7 +22,7 @@ later allowing you to:
 ---
 ## Initial Setup
 **_To set up your account with Github..._**  
-* Go to github.com and press the button that says "sign up"
+1. Go to github.com and press the button that says "sign up"
     * use an email and password (for HSTAT students, sign up using your school email and password)
     * once you're done signing up, check your email and verify with github
 * Go to c9.io
