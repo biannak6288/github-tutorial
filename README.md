@@ -31,7 +31,7 @@ later allowing you to:
     * go to connected services
     * connect your github with cloud9 by clicking on the connect button
 3. In the future you will sign into cloud9 using your github account
-![if you want to sign-in to github using c9, this is where you go...](https://www.google.com/search?q=image+of+sign+in+to+github+from+c9.io&espv=2&biw=1438&bih=735&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiTkYHRge3PAhWDPT4KHSZ5BGAQ_AUICCgD#imgdii=F8EPCi65rYia-M%3A%3BF8EPCi65rYia-M%3A%3BK6RbGGvAiIqS9M%3A&imgrc=F8EPCi65rYia-M%3A)
+![if you want to sign-in to github using c9, this is where you go...](https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-signin-github.png)
    
 
 
