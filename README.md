@@ -16,8 +16,7 @@ later allowing you to:
 * easy way to collaborate on projects when working with a partner
 * It is an opensource (everyone with access to github can view your work)
 * simple way to track changes made on the project with just a few commands
-* MOST IMPORTANTLY: One cannot use Github without Git, however, Git does not need to contain Github to activate itself 
-
+* MOST IMPORTANTLY: One cannot use Github without Git, however, Git does not need to contain Github to be activated 
 
 ---
 ## Initial Setup
