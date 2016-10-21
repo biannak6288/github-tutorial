@@ -4,8 +4,9 @@ _**by Bianna Orielle Krubitski**_
 
 ---
 ## Git vs. GitHub
-**Git**: keeps snapshots of your code (version control)  
-* Runs in the Command line  
+**Git**: a platform that keeps snapshots of your code (version control)  
+* Runs in the Command line 
+* not open top viewers besides yourself
 * One can create a directory; initalizing git allows the directory to become a repository -->   
 later allowing you to:
     * edit files
