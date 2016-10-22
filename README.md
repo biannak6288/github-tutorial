@@ -37,7 +37,7 @@ later allowing you to:
 
 ![ Alt if you want to sign-in to github using c9, this is where you go...](https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-signin-github.png)  
 
-4. Creating an SSH key(between Github & cloud9)
+4 Creating an SSH key(between Github & cloud9)
     * Github
         * Being signed in at Github.com, go to your profile icon in the top right and press settings
         * go to the left sidebar and then into SSH and GPG keys
