@@ -35,7 +35,7 @@ later allowing you to:
 
 3. In the future you will sign into cloud9 using your github account. This is how you do it...  
 
-![ Alt if you want to sign-in to github using c9, this is where you go...](https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-signin-github.png)  
+![ Alt if you want to sign-in to github using c9, this is where you go...](https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-signin-github.png)    
 
 4. Creating an SSH key(between Github & cloud9)
     * Github
