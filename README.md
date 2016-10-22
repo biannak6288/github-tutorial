@@ -21,7 +21,7 @@ later allowing you to:
 
 ---
 ## Initial Setup
-**_ How to set up your account with Github..._**
+_**How to set up your account with Github...**_
 
 1. Go to github.com and press the button that says "sign up"
     * use an email and password (for HSTAT students, sign up using your school email and password)
