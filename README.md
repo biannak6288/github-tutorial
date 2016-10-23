@@ -65,7 +65,7 @@ _**Add, Commit, and Push your First Changes...**_
 2. (Begin typing in the commnad line) To make sure you're inside your workspace, type:
 ```
 cd ~/workspace
-```
+```  
 3. next, type: 
 ```
 mkdir and (the name you gave your first repository on github when making it)
@@ -73,15 +73,15 @@ mkdir and (the name you gave your first repository on github when making it)
 ```
 ```
 for example: mkdir first-repo
-```
+```  
 4. go inside of your repository by typing:
 ```
 cd (name of your repository) 
-```
+```  
 5. Then, type:
 ```
 git init
-```
+```  
 
 ---
 ## Workflow & Commands
