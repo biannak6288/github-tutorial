@@ -52,11 +52,11 @@ _**How to set up your account with Github...**_
 ## Repository Setup
 _**To create your 1st repository...**_
 1. go to Github.com and click on the **(+)**, then click **New Repository**
-    ![below is the snapshot attached](https://goo.gl/images/iBaBnJ)
-2. Create a short and sweet name for your repository 
-3. Keep it **Public**, so people can check out your work and fork it9add their own changes and make it better with your permission)
-4. Select **initialize this repository with a README.md**
-5. finally, click **Create Repository**
+    ![below is the snapshot attached](https://goo.gl/images/iBaBnJ)  
+2. Create a short and sweet name for your repository  
+3. Keep it **Public**, so people can check out your work and fork it9add their own changes and make it better with your permission)  
+4. Select **initialize this repository with a README.md**  
+5. finally, click **Create Repository**  
 
 _YAY_ for you! You successfully created your first repository and initialized a README.md file inside of it
 
