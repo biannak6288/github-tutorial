@@ -50,7 +50,7 @@ _**How to set up your account with Github...**_
 
 ---
 ## Repository Setup
-_**To create your 1st repository...**_
+_**To create your 1st repository...**_  
 1. go to Github.com and click on the **(+)**, then click **New Repository**
     ![below is the snapshot attached](https://goo.gl/images/iBaBnJ)  
 2. Create a short and sweet name for your repository  
