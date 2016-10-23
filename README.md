@@ -60,8 +60,8 @@ _**To create your 1st repository...**_
 
 _YAY for you! You successfully created your first repository and initialized a README.md file inside of it_
 
-_**Add, Commit, and Push your First Changes...**_
-1. Go to c9.io and open your workspace  
+_**Add, Commit, and Push your First Changes...**_  
+1. Go to c9.io and open your workspace     
 2. (Begin typing in the commnad line) To make sure you're inside your workspace, type:
 ```
 cd ~/workspace
