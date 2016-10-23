@@ -57,8 +57,7 @@ _**To create your 1st repository...**_
 3. Keep it **Public**, so people can check out your work and fork it9add their own changes and make it better with your permission)  
 4. Select **initialize this repository with a README.md**  
 5. finally, click **Create Repository**  
-
-_YAY_ for you! You successfully created your first repository and initialized a README.md file inside of it
+_YAY for you! You successfully created your first repository and initialized a README.md file inside of it_
 
 
 
