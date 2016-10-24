@@ -129,6 +129,7 @@ Command        | Definition/Use
 ```git status```|Optional command that lets you see files that have been edited since the last commit (usually red or green)
 ```git add --all```|Includes all changes; including deleted files
 ```git remote -v```|See which remote repos are attached to your local repo
+```git pull```|replays the changes in the remote until a new change is diverged into the new commit
 
 **Cloning:** making a copy from your remote repository(lives in the cloud) to your local repository
 * cloning your remote to rename it after deleting your local repository is done like this:
@@ -142,7 +143,7 @@ Command        | Definition/Use
 **Pull requests:** help make other people’s projects better by offering your changes to them about the original project  
 Step 1:
 ![first step](http://i.imgur.com/CXlT0f4.png)   
-Step 2: Add a description of what you want to change and submit your pull request
+Step 2: Add a description of what you want to change in the repository and submit your pull request
 ![step2](http://i.imgur.com/8l2heSy.png)
 
 
