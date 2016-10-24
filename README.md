@@ -55,8 +55,8 @@ _**To create your 1st repository...**_
 2. Create a short and sweet name for your repository (for example: first-repo)  
 3. Keep it **Public**, so people can check out your work, fork it, clone it, and add their own changes with your permission)  
 4. Finally, click **Create Repository** (this will be your remote repository)  
-5. After that, this screen will show up
-![screen of SSH](https://d186loudes4jlv.cloudfront.net/git/images/github_new_repo3.png)
+5. After that, this screen will show up  
+![screen of SSH](https://d186loudes4jlv.cloudfront.net/git/images/github_new_repo3.png)  
 6. Copy/paste the two links under the section titled "or push an existing repository from the commnad line, one at a time"
     * Do this step after creating the repository on cloud9, follow the steps below and then continue with this
 
