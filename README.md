@@ -58,50 +58,51 @@ _**To create your 1st repository...**_
 
 _YAY for you! You successfully created your first repository and initialized a README.md file inside of it_
 
-_**Add, Commit, and Push your First Changes...**_  
+_**Add, Commit, and Push your First Changes...**_    
 _Make your first repository on cloud9:_  
-1. Go to c9.io and open your workspace     
+1. Go to c9.io and open your workspace      
 2. (Begin typing in the command line) To make sure you're inside your workspace, type:
     ```
     cd ~/workspace
-    ```  
+    ```   
 3. next, type:  
     ```
     mkdir and (the name you gave your first repository on github when making it)
     ```
     ```
     for example: mkdir first-repo
-    ```  
+    ```   
 4. go inside of your repository by typing:
     ```
     cd (name of your repository) 
-    ```  
+    ```    
 5. Then, type:
     ```
     git init
-    ```  
-_Add a README.md file:_
+    ```    
+
+_Add a README.md file:_  
 1. In your command line, after all the code you just typed continue typing:
     ```
     touch README.md
-    ```
+    ```  
 2. Then, as soon as you press enter after making it, you can either press on the file in the sidebar under the name of your repository or you can type:
     ```
     c9 README.md
-    ```
+    ```  
 3. In the README.md file, type in a message that will show up in github (for example: This is my first repo )
 4. press the keyboard keys "command" & "s" to save your work in the file
 5. In the command line, type:
     ```
     git add .
-    ```
+    ```  
 6. Next, think of a good commit message that would be in the present tense, once again short, to the point, and about the change you just executed; type:
     ```
     git commit -m "the message you think would be right"
     ```
     ```
     for example: git commit -m "create readme.md"
-    ```
+    ```  
 
 ---
 ## Workflow & Commands
