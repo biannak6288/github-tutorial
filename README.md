@@ -53,8 +53,12 @@ _**To create your 1st repository...**_
 1. go to Github.com and click on the **(+)**, then click **New Repository**
     ![below is the snapshot attached](https://github-images.s3.amazonaws.com/enterprise/11.10.340/user/assets/images/help/repository/repo-create.png)    
 2. Create a short and sweet name for your repository (for example: first-repo)  
-3. Keep it **Public**, so people can check out your work and fork it9add their own changes and make it better with your permission)  
-4. finally, click **Create Repository**  
+3. Keep it **Public**, so people can check out your work, fork it, clone it, and add their own changes with your permission)  
+4. finally, click **Create Repository** (this will be your remote repository) 
+5. After that, this screen will show up
+![screen of SSH](https://d186loudes4jlv.cloudfront.net/git/images/github_new_repo3.png)
+6. Copy/paste the two links under the section titled "or push an existing repository from the commnad line, one at a time"
+    * Do this step after creating the repository on cloud9, follow the steps below and then continue with this
 
 _YAY for you! You successfully created your first repository and initialized a README.md file inside of it_
 
@@ -65,14 +69,14 @@ _Make your first repository on cloud9:_
     ```
     cd ~/workspace
     ```   
-3. next, type:  
+3. Next, type:  
     ```
     mkdir and (the name you gave your first repository on github when making it)
     ```
     ```
     for example: mkdir first-repo
     ```   
-4. go inside of your repository by typing:
+4. Go inside of your repository by typing:
     ```
     cd (name of your repository) 
     ```    
@@ -82,7 +86,7 @@ _Make your first repository on cloud9:_
     ```    
 
 _Add a README.md file:_  
-1. In your command line, after all the code you just typed continue typing:
+1. Since the remote repository was already created on github, in your command line on cloud9 after all the code you just typed, continue typing:
     ```
     touch README.md
     ```  
@@ -103,6 +107,12 @@ _Add a README.md file:_
     ```
     for example: git commit -m "create readme.md"
     ```  
-
+7. Copy/paste the links, one at a time, like stated above in the command line after following the directions(steps) listed before this one:
+    ```
+    git remote add origin git@github.com:biannak6288/3rd-repo.git
+    ```
+    ```
+    git push -u origin master
+    ```
 ---
 ## Workflow & Commands
