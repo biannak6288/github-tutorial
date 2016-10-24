@@ -128,12 +128,15 @@ Command        | Definition/Use
 ```q```|Quits the git diff mode
 ```git status```|Optional command that lets you see files that have been edited since the last commit (usually red or green)
 ```git add --all```|Includes all changes; including deleted files
+```git remote -v```|See which remote repos are attached to your local repo
 
-Cloning: making a copy from your remote repository(lives in the cloud) to your local repository
+**Cloning:** making a copy from your remote repository(lives in the cloud) to your local repository
 * cloning your remote to rename it after deleting your local repository is done like this:
 ![snapshot is included](https://files.readme.io/YzvRCcWSxCKV70afj0Ux_GitHub%20-%20SSH%20-%202.png)
+* In the command line of your new local repository after being cloned from its parent, type ``` git clone``` in the workspace and the link you copied
+* after cloned, ```cd``` into that directory
 
-
+**Forking:**Producing a personal copy of someone else’s project.
 
 
 
