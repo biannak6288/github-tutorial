@@ -37,11 +37,11 @@ _**How to set up your account with Github...**_
 
 ![ Alt if you want to sign-in to github using c9, this is where you go...](https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-signin-github.png)    
 4. Creating an SSH key(between Github & cloud9)  
-    * Github  
+* Github  
         * Being signed in at Github.com, go to your profile icon in the top right and press settings  
         * go to the left sidebar and then into SSH and GPG keys  
         * press New SSH and give it a title of your choice (unless a teacher instructs otherwise)    
-    * cloud9  
+* cloud9  
         * go to the gear icon in the top right corner  
         * navigate to the SSH keys tab  
         * copy/paste your SSH key (begins with ssh-rsa) into Github  
