@@ -65,10 +65,9 @@ _Make your first repository on cloud9:_
     ```
     cd ~/workspace
     ```  
-3. next, type: 
+3. next, type:  
     ```
     mkdir and (the name you gave your first repository on github when making it)
-
     ```
     ```
     for example: mkdir first-repo
@@ -90,9 +89,9 @@ _Add a README.md file:_
     ```
     c9 README.md
     ```
-3. In the README.md file, type in a message that will show up github (for example: This is my first repo )
+3. In the README.md file, type in a message that will show up in github (for example: This is my first repo )
 4. press the keyboard keys "command" & "s" to save your work in the file
-5. In the command linE, type:
+5. In the command line, type:
     ```
     git add .
     ```
