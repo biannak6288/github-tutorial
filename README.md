@@ -107,12 +107,12 @@ _Add a README.md file:_
     ```
     for example: git commit -m "create readme.md"
     ```  
-7. Copy/paste the links, one at a time, like stated above in the command line after following the directions(steps) listed before this one:
+7. Copy/paste the links one at a time, like stated above, in the command line after following the directions(steps) listed before this one:
     ```
     git remote add origin git@github.com:biannak6288/3rd-repo.git
     ```
     ```
     git push -u origin master
-    ```  
+    ``` 
 ---
 ## Workflow & Commands
