@@ -136,7 +136,7 @@ Command        | Definition/Use
 * In the command line of your new local repository after being cloned from its parent, type ``` git clone``` in the workspace and the link you copied
 * after cloned, ```cd``` into that directory
 
-**Forking:**Producing a personal copy of someone else’s project. This is how to fork a repository on Github:  
+**Forking:**Producing a personal copy of someone else’s project. This is how to fork a repository on Github:    
 ![forking snapshot](http://i.imgur.com/7wapvt2.png)
 
 **Pull requests:** help make other people’s projects better by offering your changes to them about the original project
