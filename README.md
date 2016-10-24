@@ -53,9 +53,8 @@ _**To create your 1st repository...**_
 1. go to Github.com and click on the **(+)**, then click **New Repository**
     ![below is the snapshot attached](https://github-images.s3.amazonaws.com/enterprise/11.10.340/user/assets/images/help/repository/repo-create.png)    
 2. Create a short and sweet name for your repository (for example: first-repo)  
-3. Keep it **Public**, so people can check out your work and fork it9add their own changes and make it better with your permission)    
-4. Select **initialize this repository with a README.md**  
-5. finally, click **Create Repository**  
+3. Keep it **Public**, so people can check out your work and fork it9add their own changes and make it better with your permission)  
+4. finally, click **Create Repository**  
 
 _YAY for you! You successfully created your first repository and initialized a README.md file inside of it_
 
@@ -65,6 +64,7 @@ _**Add, Commit, and Push your First Changes...**_
 ```
 cd ~/workspace
 ```  
+
 3. next, type: 
 ```
 mkdir and (the name you gave your first repository on github when making it)
@@ -73,10 +73,12 @@ mkdir and (the name you gave your first repository on github when making it)
 ```
 for example: mkdir first-repo
 ```  
+
 4. go inside of your repository by typing:
 ```
 cd (name of your repository) 
 ```  
+
 5. Then, type:
 ```
 git init
