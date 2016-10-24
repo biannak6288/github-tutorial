@@ -57,8 +57,8 @@ _**To create your 1st repository...**_
 4. Finally, click **Create Repository** (this will be your remote repository)  
 5. After that, this screen will show up  
 ![screen of SSH](https://d186loudes4jlv.cloudfront.net/git/images/github_new_repo3.png)  
-6. Copy/paste the two links under the section titled "or push an existing repository from the commnad line, one at a time"
-    * Do this step after creating the repository on cloud9, follow the steps below and then continue with this
+6. Copy/paste the two links under the section titled "or push an existing repository from the commnad line, one at a time"  
+* After creating the repository on cloud9, follow the steps below and then continue with these two links spoken of above
 
 _YAY for you! You successfully created your first repository and initialized a README.md file inside of it_
 
