@@ -41,7 +41,7 @@ _**How to set up your account with Github...**_
         * Being signed in at Github.com, go to your profile icon in the top right and press settings  
         * go to the left sidebar and then into SSH and GPG keys  
         * press New SSH and give it a title of your choice (unless a teacher instructs otherwise)    
-* loud9  
+* Cloud9  
         * go to the gear icon in the top right corner  
         * navigate to the SSH keys tab  
         * copy/paste your SSH key (begins with ssh-rsa) into Github  
