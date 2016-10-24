@@ -110,9 +110,30 @@ _Add a README.md file:_
 7. Copy/paste the links one at a time, like stated above, in the command line after following the directions(steps) listed before this one:
     ```
     git remote add origin git@github.com:biannak6288/3rd-repo.git
-    ```  
+    ```
     ```
     git push -u origin master
     ```
 ---
 ## Workflow & Commands
+Command        | Definition/Use
+---------------| -------------
+```git init```|Initializes git in the directory (repository); only done once when the folder is just created. If git is initialized in the wrong directory, then you technically would be working on your project in the wrong place and not the folder originally thought of therefore, you ```cd``` into the directory of your choice and then initialize git.
+```git add .```|Adds the current/entire directory: all files that have changes to the cloud
+``` git commit -m "message"```|Takes a snapshot of the files on the stage. The message should be present-tense and describe what was modified in the snapshot (short and specific)
+``` rm -rf .git```|Uninitializes git in the working directory  (to completely remove your local repository, you type "rm -rf and your repo name"
+```git push -u origin master```|Pushes committed changes into the repository
+```git log```|This shows the previous commands in detail. It can show the date and message of when you committed the changev
+```git diff ```|This checks the files differences between the current and previous commit
+```q```|Quits the git diff mode
+```git status```|Optional command that lets you see files that have been edited since the last commit (usually red or green)
+```git add --all```|Includes all changes; including deleted files
+
+Cloning: making a copy from your remote repository(lives in the cloud) to your local repository
+* cloning your remote to rename it after deleting your local repository is done like this:
+![snapshot is included](https://files.readme.io/YzvRCcWSxCKV70afj0Ux_GitHub%20-%20SSH%20-%202.png)
+
+
+
+
+
