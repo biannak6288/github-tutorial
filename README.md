@@ -49,7 +49,8 @@ _**How to set up your account with Github...**_
 
 ---
 ## Repository Setup
-_**To create your 1st repository...**_  
+_**To create your 1st repository...**_
+
 **Repository:** The definition of a repository is a folder that holds files and is created after intializing git.  
 **Directory:** The directory is a regular folder that also holds files like a repository, but does not need git initialization to be created.  
 1. go to Github.com and click on the **(+)**, then click **New Repository**
