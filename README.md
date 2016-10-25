@@ -146,6 +146,8 @@ Step 1:
 Step 2: Add a description of what you want to change in the repository and submit your pull request
 ![step2](http://i.imgur.com/8l2heSy.png)
 
+**Congratulations!!!** You now know how to set up your repository on github and cloud9!
+
 
 
 
