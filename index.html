@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>GitHub-Tutorial by biannak6288</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">GitHub-Tutorial</h1>
+      <h2 class="project-tagline">Learn how to be(git) with Github</h2>
+      <a href="https://github.com/biannak6288/github-tutorial" class="btn">View on GitHub</a>
+      <a href="https://github.com/biannak6288/github-tutorial/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/biannak6288/github-tutorial/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<p><em><strong>by Bianna Orielle Krubitski</strong></em></p>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<p><strong>Git</strong>: a platform that keeps snapshots of your code (version control)  </p>
+
+<ul>
+<li>Runs in the Command line </li>
+<li>not open to viewers besides yourself</li>
+<li>One can create a directory; initalizing git allows the directory to become a repository --&gt;<br>
+later allowing you to:
+
+<ul>
+<li>edit files</li>
+<li>add files</li>
+<li>commit files</li>
+</ul>
+</li>
+</ul>
+
+<p><strong>Github</strong>: stores your code in the cloud platform (a website; for example: Github.com)</p>
+
+<ul>
+<li>easy way to collaborate on projects when working with a partner</li>
+<li>It is an opensource (everyone with access to github can view your work)</li>
+<li>simple way to track changes made on the project with just a few commands</li>
+<li>MOST IMPORTANTLY: One cannot use Github without Git, however, Git does not need to contain Github to be activated </li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<p><em><strong>How to set up your account with Github...</strong></em></p>
+
+<ol>
+<li>
+<p>Go to github.com and press the button that says "sign up"</p>
+
+<ul>
+<li>use an email and password (for HSTAT students, sign up using your school email and password)</li>
+<li>once you're done signing up, check your email and verify with github<br>
+</li>
+</ul>
+</li>
+<li>
+<p>Go to c9.io</p>
+
+<ul>
+<li>create an account(first/last name, email, password, etc.)</li>
+<li>once set up, press on the gear in the top right corner</li>
+<li>go to connected services</li>
+<li>connect your github with cloud9 by clicking on the connect button<br>
+</li>
+</ul>
+</li>
+<li><p>In the future you will sign into cloud9 using your github account. This is how you do it...  </p></li>
+</ol>
+
+<p><img src="https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-signin-github.png" alt=" Alt if you want to sign-in to github using c9, this is where you go..."><br>
+4. Creating an SSH key(between Github &amp; cloud9)  </p>
+
+<ul>
+<li>Github<br>
+    * Being signed in at Github.com, go to your profile icon in the top right and press settings<br>
+    * go to the left sidebar and then click on SSH and GPG keys<br>
+    * press New SSH and give it a title of your choice (unless a teacher instructs otherwise)<br>
+</li>
+<li>Cloud9<br>
+    * go to the gear icon in the top right corner<br>
+    * navigate to the SSH keys tab<br>
+    * copy/paste your SSH key (begins with ssh-rsa) into Github<br>
+    * Add SSH key</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<p><em><strong>To create your 1st repository...</strong></em></p>
+
+<p><strong>Repository:</strong> The definition of a repository is a folder that holds files and is created after intializing git.<br>
+<strong>Directory:</strong> The directory is a regular folder that also holds files like a repository, but does not need git initialization to be created.<br>
+1. go to Github.com and click on the <strong>(+)</strong>, then click <strong>New Repository</strong>
+    <img src="https://github-images.s3.amazonaws.com/enterprise/11.10.340/user/assets/images/help/repository/repo-create.png" alt="below is the snapshot attached"><br>
+2. Create a short and sweet name for your repository (for example: first-repo)<br>
+3. Keep it <strong>Public</strong>, so people can check out your work, fork it, clone it, and add their own changes with your permission)<br>
+4. Finally, click <strong>Create Repository</strong> (this will be your remote repository)<br>
+5. After that, this screen will show up<br>
+<img src="https://d186loudes4jlv.cloudfront.net/git/images/github_new_repo3.png" alt="screen of SSH"><br>
+6. Copy/paste the two links under the section titled "or push an existing repository from the commnad line, one at a time"  </p>
+
+<ul>
+<li>After creating the repository on cloud9, follow the steps below and then continue with these two links spoken of above</li>
+</ul>
+
+<p><em>YAY for you! You successfully created your first repository and initialized a README.md file inside of it</em></p>
+
+<p><em><strong>Add, Commit, and Push your First Changes...</strong></em><br>
+<em>Make your first repository on cloud9:</em><br>
+1. Go to c9.io and open your workspace<br>
+2. (Begin typing in the command line) To make sure you're inside your workspace, type:
+    <code>
+    cd ~/workspace
+</code><br>
+3. Next, type:<br>
+    <code>
+    mkdir and (the name you gave your first repository on github when making it)
+</code>
+    <code>
+    for example: mkdir first-repo
+</code><br>
+4. Go inside of your repository by typing:
+    <code>
+    cd (name of your repository) 
+</code><br>
+5. Then, type:
+    <code>
+    git init
+</code>    </p>
+
+<p><em>Add a README.md file:</em><br>
+1. Since the remote repository was already created on github, in your command line on cloud9 after all the code you just typed, continue typing:
+    <code>
+    touch README.md
+</code><br>
+2. Then, as soon as you press enter after making it, you can either press on the file in the sidebar under the name of your repository or you can type:
+    <code>
+    c9 README.md
+</code><br>
+3. In the README.md file, type in a message that will show up in github (for example: This is my first repo )<br>
+4. Press the keyboard keys "command" &amp; "s" to save your work in the file<br>
+5. In the command line, type:
+    <code>
+    git add .
+</code><br>
+6. Next, think of a good commit message that would be in the present tense, once again short, to the point, and about the change you just executed; type:
+    <code>
+    git commit -m "the message you think would be right"
+</code>
+    <code>
+    for example: git commit -m "create readme.md"
+</code><br>
+7. Copy/paste the links one at a time, like stated above, in the command line after following the directions(steps) listed before this one:
+    <code>
+    git remote add origin git@github.com:biannak6288/3rd-repo.git
+</code>
+    <code>
+    git push -u origin master
+</code></p>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Definition/Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>git init</code></td>
+<td>Initializes git in the directory (repository); only done once when the folder is just created. If git is initialized in the wrong directory, then you technically would be working on your project in the wrong place and not the folder originally thought of therefore, you <code>cd</code> into the directory of your choice and then initialize git. Also, you know that git is intialized when next to the workspace name it says <code>master</code>.</td>
+</tr>
+<tr>
+<td><code>git add .</code></td>
+<td>Adds the current/entire directory: all files that have changes to the cloud</td>
+</tr>
+<tr>
+<td><code>git commit -m "message"</code></td>
+<td>Takes a snapshot of the files on the stage. The message should be present-tense and describe what was modified in the snapshot (short and specific)</td>
+</tr>
+<tr>
+<td><code>rm -rf .git</code></td>
+<td>Uninitializes git in the working directory  (to completely remove your local repository, you type "rm -rf and your repo name"</td>
+</tr>
+<tr>
+<td><code>git push -u origin master</code></td>
+<td>Pushes committed changes into the repository</td>
+</tr>
+<tr>
+<td><code>git log</code></td>
+<td>This shows the previous commands in detail. It can show the date and message of when you committed the changev</td>
+</tr>
+<tr>
+<td><code>git diff</code></td>
+<td>This checks the files differences between the current and previous commit</td>
+</tr>
+<tr>
+<td><code>q</code></td>
+<td>Quits the git diff mode</td>
+</tr>
+<tr>
+<td><code>git status</code></td>
+<td>Optional command that lets you see files that have been edited since the last commit (usually red or green)</td>
+</tr>
+<tr>
+<td><code>git add --all</code></td>
+<td>Includes all changes; including deleted files</td>
+</tr>
+<tr>
+<td><code>git remote -v</code></td>
+<td>See which remote repos are attached to your local repo</td>
+</tr>
+<tr>
+<td><code>git pull</code></td>
+<td>replays the changes in the remote until a new change is diverged into the new commit</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Cloning:</strong> making a copy from your remote repository(lives in the cloud) to your local repository</p>
+
+<ul>
+<li>cloning your remote to rename it after deleting your local repository is done like this:
+<img src="https://files.readme.io/YzvRCcWSxCKV70afj0Ux_GitHub%20-%20SSH%20-%202.png" alt="snapshot is included">
+</li>
+<li>In the command line of your new local repository after being cloned from its parent, type <code>git clone</code> in the workspace and the link you copied</li>
+<li>after cloned, <code>cd</code> into that directory</li>
+</ul>
+
+<p><strong>Forking:</strong>Producing a personal copy of someone else’s project. This is how to fork a repository on Github:<br>
+<img src="http://i.imgur.com/7wapvt2.png" alt="forking snapshot"></p>
+
+<p><strong>Pull requests:</strong> help make other people’s projects better by offering your changes to them about the original project<br>
+Step 1:
+<img src="http://i.imgur.com/CXlT0f4.png" alt="first step"><br>
+Step 2: Add a description of what you want to change in the repository and submit your pull request
+<img src="http://i.imgur.com/8l2heSy.png" alt="step2"></p>
+
+<p><strong>Congratulations!!!</strong> You now know how to set up your repository on github and cloud9!</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/biannak6288/github-tutorial">GitHub-Tutorial</a> is maintained by <a href="https://github.com/biannak6288">biannak6288</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
