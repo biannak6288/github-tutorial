@@ -28,7 +28,7 @@ _**How to set up your account with Github...**_
     * once you're done signing up, check your email and verify with github  
 
 2. Go to c9.io
-    * creat an account(first/last name, email, password, etc.)
+    * create an account(first/last name, email, password, etc.)
     * once set up, press on the gear in the top right corner
     * go to connected services
     * connect your github with cloud9 by clicking on the connect button  
@@ -39,7 +39,7 @@ _**How to set up your account with Github...**_
 4. Creating an SSH key(between Github & cloud9)  
 * Github  
         * Being signed in at Github.com, go to your profile icon in the top right and press settings  
-        * go to the left sidebar and then into SSH and GPG keys  
+        * go to the left sidebar and then click on SSH and GPG keys  
         * press New SSH and give it a title of your choice (unless a teacher instructs otherwise)    
 * Cloud9  
         * go to the gear icon in the top right corner  
